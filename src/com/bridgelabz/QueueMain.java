@@ -12,6 +12,11 @@ public class QueueMain {
         sampleQueue.enqueue(nodeFirstForQueue);
         sampleQueue.enqueue(nodeSecondForQueue);
         sampleQueue.enqueue(nodeThirdForQueue);
+        System.out.println("My Queue after adding");
+        sampleQueue.printQueue();
+        System.out.println("My queue after deleting one element");
+
+        sampleQueue.dequeue();
 
         sampleQueue.printQueue();
 

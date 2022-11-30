@@ -8,10 +8,14 @@ public class QueueCustom {
     }
     public void enqueue(INode element) {
         QueueMadeWithLL.append(element);
+    }
 
+    public INode dequeue() {
+        return QueueMadeWithLL.pop();
     }
     public void printQueue() {
         QueueMadeWithLL.dispalyLinkedList();
     }
 
 }
+
