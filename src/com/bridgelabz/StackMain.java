@@ -16,10 +16,10 @@ public class StackMain {
 
         sampleStack.printStack();
 
-        System.out.println("Top element is"+sampleStack.peek().getKey());
+        System.out.println("Top element is" + sampleStack.peek().getKey());
         System.out.println("Stack after repeated poping");
 
-        while(!sampleStack.isEmpty()) {
+        while (!sampleStack.isEmpty()) {
             sampleStack.pop();
         }
         sampleStack.printStack();

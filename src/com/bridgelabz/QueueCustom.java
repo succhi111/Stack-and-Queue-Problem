@@ -6,6 +6,7 @@ public class QueueCustom {
     public QueueCustom() {
         this.QueueMadeWithLL = new LinkedListCustom();
     }
+
     public void enqueue(INode element) {
         QueueMadeWithLL.append(element);
     }
@@ -13,6 +14,7 @@ public class QueueCustom {
     public INode dequeue() {
         return QueueMadeWithLL.pop();
     }
+
     public void printQueue() {
         QueueMadeWithLL.dispalyLinkedList();
     }

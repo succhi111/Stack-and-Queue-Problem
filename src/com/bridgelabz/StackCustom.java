@@ -29,9 +29,9 @@ public class StackCustom<K> {
     // Is empty method
 
     public boolean isEmpty() {
-        if(stackMadeWithLL.head!=null) {
+        if (stackMadeWithLL.head != null) {
             return false;
-        }else {
+        } else {
             return true;
         }
     }
