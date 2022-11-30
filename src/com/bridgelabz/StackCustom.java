@@ -8,12 +8,9 @@ public class StackCustom<K> {
         this.stackMadeWithLL = new LinkedListCustom();
     }
 
-
     public void push(INode element) {
         stackMadeWithLL.add(element);
     }
-
-
 
     public void printStack() {
         stackMadeWithLL.dispalyLinkedList();
