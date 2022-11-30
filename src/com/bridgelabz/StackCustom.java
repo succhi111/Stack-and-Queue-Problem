@@ -13,7 +13,28 @@ public class StackCustom<K> {
         stackMadeWithLL.add(element);
     }
 
+    // peek and pop till empty
 
+    // peek method
+    public INode peek() {
+        return stackMadeWithLL.head;
+    }
+
+    // Pop method
+
+    public INode pop() {
+        return stackMadeWithLL.pop();
+    }
+
+    // Is empty method
+
+    public boolean isEmpty() {
+        if(stackMadeWithLL.head!=null) {
+            return false;
+        }else {
+            return true;
+        }
+    }
 
     public void printStack() {
         stackMadeWithLL.dispalyLinkedList();
